@@ -1,0 +1,25 @@
+*{
+    padding: 20px;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: sienna;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+@media screen and (max-width: 600px) {
+    header{
+        display: block;
+}
+    
+}
+nav{ background-color: coral;}
+main{ background-color: crimson;}
+article{background-color: orangered;}
+section{background-color: peru;}
+aside{background-color: rosybrown;}
+footer{background-color: sienna;}
